@@ -1,0 +1,10 @@
+.Card {
+    background-color: bisque;
+    height: auto;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 15%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border-radius: 20%;
+}
