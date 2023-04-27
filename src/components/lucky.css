@@ -1,0 +1,13 @@
+.color{
+    background-color: darkgray;
+    border: 5px solid whitesmoke;
+    border-radius: 10px;
+    height: 150px;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 15%;
+    margin-bottom: 20%;
+    padding-top: 15px;
+    padding-bottom: 45px;
+
+}
