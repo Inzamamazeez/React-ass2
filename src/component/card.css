@@ -1,0 +1,27 @@
+button{
+background-color: blanchedalmond;
+border-radius: 5px;
+}
+.design2{
+    display: flex;
+    flex-wrap: wrap;
+}
+.design3{
+    width:300px;
+    margin: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+.design img{
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10px;
+}
+.design3 h3{
+    margin-bottom: 2px;
+}
+.design p{
+    font-size: 10px;
+}
