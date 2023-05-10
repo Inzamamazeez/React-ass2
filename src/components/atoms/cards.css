@@ -1,0 +1,41 @@
+
+.App{
+    border: 1px solid white;
+    height: 65vh;
+    width: 60vw;
+    max-width: 60vw;
+    margin: auto;
+    display: flex;
+    margin-top: 10%;
+    padding:1rem;
+    gap:80px;
+    overflow: scroll;
+}
+.App::-webkit-scrollbar {
+    display: none;
+}
+
+.design1{
+    border: 1px solid white;
+    background-color: azure;
+    border-radius: 10px;
+    width: 100px ;
+    height: 200px;
+    padding: 2rem ;    
+}
+.design1 img{
+    width: 70px;
+    height: 70px;
+    border-radius:50px;   
+    
+}
+.design1 h3{
+    font-size: 10px;
+    
+}
+.design1 h2{
+    font-size: 15px;
+}
+.design1 p{
+    font-size: 8px;
+}
