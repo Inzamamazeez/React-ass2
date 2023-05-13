@@ -1,0 +1,14 @@
+.main_head h1{
+    font-size: 35px;
+}
+.container{
+    border-radius: 10px;
+    width: 30%;
+    overflow: auto;
+    height: 80vh;
+    margin: auto;
+    background-color: antiquewhite;
+}
+.container::-webkit-scrollbar{
+    display: none;
+}
