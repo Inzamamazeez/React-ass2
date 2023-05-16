@@ -1,13 +1,36 @@
 import React from 'react';
-import { useState } from 'react';
+// import { useState } from 'react';
 import './desktop.css';
 import {BsFillMenuButtonWideFill} from 'react-icons/bs';
+import { useNavigate} from 'react-router-dom';
 
-export default function Header() {
-  const [input,setInput]=useState(false)
+function Header() {
+  // const [input,setInput]=useState(false)
 
-  function handleClick(){
-    setInput(!input);
+  const navigate=useNavigate()
+
+  function handleAbout(){
+    navigate('/about')
+  }
+
+  function handleContact(){
+    navigate('/contact')
+  }
+
+  function handleHome(){
+    navigate('/home')
+  }
+
+  function handleLogin(){
+    navigate('/login');
+  }
+
+  function handleProject(){
+    navigate('/project')
+  }
+
+  function handleVideos(){
+    navigate('/videos')
   }
 
   return (
@@ -16,21 +39,21 @@ export default function Header() {
       <div className="logo">My Website</div>
       <nav className="nav-bar">
         <ul>
-        <li>Home</li>
-        <li>About</li>
-        <li>Projects</li>
-        <li>Videos</li>
-        <li>Contact</li>
+        <li onClick={handleHome}>Home</li>
+        <li onClick={handleAbout}>About</li>
+        <li onClick={handleProject}>Projects</li>
+        <li onClick={handleVideos}>Videos</li>
+        <li onClick={handleContact}>Contact</li>
         </ul>
       </nav>
-      <button>Login</button>
+      <button onClick={handleLogin}>Login</button>
       <BsFillMenuButtonWideFill className='hamberger'/>
     </header>
     <div className='hero'>
       <div className='hero1'>
         <h1>Hello There!</h1>
         <p>The more you Listen the more you learn</p>
-        <button className='btn1'>Click this</button>
+        <button className='btn2'>Click this</button>
         </div>
         <div className='photo'>
           <img src="https://thumbs.dreamstime.com/b/colourful-pixel-background-24010476.jpg" alt=""/>
@@ -40,6 +63,6 @@ export default function Header() {
     </>
   );
 }
-
+export default Header;
 
 

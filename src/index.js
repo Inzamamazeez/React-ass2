@@ -3,11 +3,53 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import About from './PagesComp/About/about';
+import Contact from './PagesComp/Contact/contact';
+import Home from './PagesComp/Home/home';
+import Login from './PagesComp/Login/login';
+import Project from './PagesComp/Project/project';
+import Videos from './PagesComp/Videos/videos';
+
+import{
+  createBrowserRouter,
+  RouterProvider,
+}from "react-router-dom";
+
+const router=createBrowserRouter([
+  {
+    path:"/",
+    element:<App/>
+  },
+  {
+    path:"/About",
+    element:<About/>
+  },
+  {
+    path:"/Contact",
+    element:<Contact/>
+  },
+  {
+    path:"/Home",
+    element:<Home/>
+  },
+  {
+    path:"/Login",
+    element:<Login/>
+  },
+  {
+    path:"/Project",
+    element:<Project/>
+  },
+  {
+    path:"/videos",
+    element:<Videos/>
+  }
+])
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <RouterProvider router={router}/>
   </React.StrictMode>
 );
 

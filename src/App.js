@@ -1,5 +1,5 @@
 import Header from "./component/media";
-// import Hero from "./component/media";
+
 
 function App() {
   return (
