@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.design{
+    background-color: green;
+    height: 100vh;
+    width: 100vw;
+}
+
+.pogo{
+    padding-top: 30vh;
+    width: 40%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 200px;
+}
+
+.bar input{
+    width: 200px;
+    background-color: transparent;
+    border: none;
+    height: 100%; 
+    font-size: 0.9rem;
+    width: 100%;
+    margin-left: 5px;
+}
+
+.bar{
+    background-color: white;
+    width: 100%;
+    border-radius: 10px;
+    height: 2rem;
+    padding: 0 15px;
+    box-shadow: 0px 0px 8px #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+input:focus{
+    outline: none;
+}
+
+.mice{
+    color: royalblue;
+}
+
+/* .List_states {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 8px #ddd;
+    border-radius: 10px;
+    margin-top: 1rem;
+    max-height: 300px;
+    overflow-y: scroll;
+} */
+
+.state-list{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 8px #ddd;
+    border-radius: 10px;
+    margin-top: 1rem;
+    max-height: 300px;
+    overflow-y: scroll;
+}
