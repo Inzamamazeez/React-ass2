@@ -1,0 +1,18 @@
+*{
+    background-image: none;
+    background-color: wheat;
+}
+
+.Front{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.Actions{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}

@@ -1,0 +1,15 @@
+.Cover{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.button{
+    width: 16%;
+    background-color: dimgray;
+}
+
